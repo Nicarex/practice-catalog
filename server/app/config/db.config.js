@@ -1,7 +1,7 @@
 module.exports = {
-    HOST: "192.168.110.7",
+    HOST: "***.***.***.***",
     USER: "postgres",
-    PASSWORD: "Federal-Sanctity5-Egotistic",
+    PASSWORD: "******************",
     DB: "museum",
     dialect: "postgres"
   };
