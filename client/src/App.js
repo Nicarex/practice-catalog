@@ -139,7 +139,10 @@ class App extends Component {
             <Route path="/admin" component={BoardAdmin} />
           </Switch>
         </div>
-
+        <div className="footer">
+            <h5>© 2022</h5>
+            <h6><p>В проекте участвовали - Насонов Никита, Силенко Артём (Back-End and Data Base) и Шокин Данила (Front-End and UI).</p><p>Проект показывает и рассказывает об экспонатах, находящихся в Академии Гражданской Защиты МЧС России.</p></h6>
+        </div>
         { /*<AuthVerify logOut={this.logOut}/> */ }
       </div>
     );
